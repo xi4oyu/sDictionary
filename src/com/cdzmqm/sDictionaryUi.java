@@ -666,7 +666,7 @@ class sDictionaryUi extends JFrame{
 				file = new BufferedWriter(new FileWriter(filename));
 				if(result==0)
 				{
-					if(!sdomain.equals(""))
+					if(!smail.equals(""))
 					{
 						String[] tmp = smail.split("@");
 						smail1 = tmp[0];
