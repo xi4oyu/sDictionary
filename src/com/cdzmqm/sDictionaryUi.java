@@ -49,7 +49,7 @@ class sDictionaryUi extends JFrame{
 	}
 	public sDictionaryUi()
 	{
-		this.setTitle("sDictionary");
+		this.setTitle("sDictionary By Chora[MS509]");
 		this.setSize(452, 352);
 		try
 		{
@@ -96,7 +96,7 @@ class sDictionaryUi extends JFrame{
 		panel.add(domain);
 		makeLabel("英文名:    (例如selina)");
 		panel.add(nickname);
-		makeLabel("其他:   （例如江海证券经常使用jhzq）");
+		makeLabel("其他:   （例如云海证券的密码含有yhzq）");
 		panel.add(other);
 		getContentPane().add(panel);
 		getContentPane().add(panel2,BorderLayout.SOUTH);
@@ -759,7 +759,7 @@ class sDictionaryUi extends JFrame{
 	private void readme()
 	{
 		JDialog r = new JDialog(sDictionaryUi.this);
-		r.add(new JLabel("<html><h1>社会工程学字典<i></i></h1>By Chora</html>"),BorderLayout.CENTER);
+		r.add(new JLabel("<html><h1>社会工程学字典<i></i></h1>By Chora[MS509]</html>"),BorderLayout.CENTER);
 		r.setSize(250,150);
 		Toolkit t = Toolkit.getDefaultToolkit();
 		Dimension d = t.getScreenSize();
